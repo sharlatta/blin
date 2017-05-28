@@ -1,0 +1,8 @@
+.app-container {
+    background-color: #ffd42b;
+}
+
+.order-items-container {
+    display: flex;
+    justify-content: space-around;
+}
