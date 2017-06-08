@@ -1,10 +1,5 @@
-<div class="app-container">
-    <div class="order-items-container">
+<div>
+    <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutWrap>
         <app-order-item *ngFor="let item of items" [item]=item></app-order-item>
     </div>
-    <button md-raised-button>
-        Angular Material works!
-        <md-icon>done</md-icon>
-    </button>
-
 </div>

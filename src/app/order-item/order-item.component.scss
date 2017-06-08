@@ -45,3 +45,11 @@
 .order-item:hover .order-item-description {
     display: block;
 }
+
+.order-button {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    z-index: 1;
+
+}

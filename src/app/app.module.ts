@@ -3,7 +3,8 @@ import {NgModule} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
-import {MdButtonModule, MdCheckboxModule} from '@angular/material';
+import {MdButtonModule, MdToolbarModule} from '@angular/material';
+import {FlexLayoutModule} from "@angular/flex-layout";
 
 import {OrderItemComponent} from './order-item/order-item.component';
 
@@ -16,9 +17,9 @@ import {OrderItemComponent} from './order-item/order-item.component';
         BrowserModule,
         FormsModule,
         HttpModule,
+        FlexLayoutModule,
         MdButtonModule,
-        MdCheckboxModule,
-
+        MdToolbarModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
