@@ -1,6 +1,18 @@
-<div class="order-item" [ngStyle]="{'background-image': 'url('+item.image+')' }">
-    <div class="order-item-description">
-        {{item.description}}
+<div class="order-item mdl-card mdl-shadow--2dp">
+  <div class="order-item__image">
+    <div class="order-item__title mdl-card__title mdl-card--expand"
+         [ngStyle]="{'background-image': 'url('+item.image+')' }">
     </div>
-    <button md-raised-button class="order-button">done</button>
+  </div>
+<div class="order-item__description">
+  <div class="order-item__text mdl-card__supporting-text">
+    <h4>{{item.title}}</h4>
+    {{item.description}}
+  </div>
+  <div class="mdl-card__actions">
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+      Замовити
+    </button>
+  </div>
+</div>
 </div>

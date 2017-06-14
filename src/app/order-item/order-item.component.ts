@@ -2,6 +2,7 @@ import {Component, OnInit, Input} from '@angular/core';
 
 export class OrderItem {
     description: string;
+    title: string;
     image: string;
 }
 

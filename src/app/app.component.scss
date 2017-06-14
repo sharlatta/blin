@@ -1,0 +1,12 @@
+$secondary: #f4f2ee;
+
+.app-root {
+  width: 100%;
+  height: 100%;
+  background-color: $secondary;
+}
+
+.order-items-container {
+    display: flex;
+    justify-content: space-around;
+}

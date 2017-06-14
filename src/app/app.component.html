@@ -1,5 +1,5 @@
-<div>
-    <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutWrap>
-        <app-order-item *ngFor="let item of items" [item]=item></app-order-item>
+<div class="app-root">
+    <div class="mdl-grid">
+        <app-order-item class="mdl-cell mdl-cell--3-col" *ngFor="let item of items" [item]=item></app-order-item>
     </div>
 </div>
