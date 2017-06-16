@@ -1,5 +1,4 @@
 <div class="app-root">
-    <div class="order-items-container mdl-grid ">
-        <app-order-item class="mdl-cell mdl-cell--3-col" *ngFor="let item of items" [item]=item></app-order-item>
-    </div>
+  <app-product-list [list]="sweet" [isSweetSection]="true" [title]="'Солодкi'"></app-product-list>
+  <app-product-list [list]="salty" [isSaltySection]="true" [title]="'Поживнi'"></app-product-list>
 </div>

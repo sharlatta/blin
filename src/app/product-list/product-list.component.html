@@ -1,0 +1,4 @@
+<div class="order-items mdl-grid" [ngClass]="{'order-items--sweet': isSweetSection, 'order-items--salty': isSaltySection}">
+  <h2 class="order-items__title mdl-cell mdl-cell--12-col">{{title}}</h2>
+  <app-order-item class="mdl-cell mdl-cell--3-col" *ngFor="let item of list" [item]=item></app-order-item>
+</div>

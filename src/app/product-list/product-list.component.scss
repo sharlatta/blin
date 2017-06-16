@@ -1,0 +1,45 @@
+$pinkish: #f5e8eb;
+$pink: #ff4081;
+$grey: rgba(113,89,89,0.5);
+$dark-red: #ab0303;
+$orange: #E08300;
+$yellowish: rgba(189, 105,73, 0.25);
+$powder-rose: rgb(128,83,113);
+$green-grass: #bac64a;
+
+
+
+
+.order-items {
+  display: flex;
+  justify-content: center;
+
+
+  &__title {
+    font-family: Solena;
+    text-align: center;
+    font-size: 80px;
+    line-height: 160px;
+    font-weight: 700;
+    text-shadow: 0 1px 1px white;
+  }
+
+  &--sweet {
+    background-color: $pinkish;
+
+    .order-items__title {
+      color: $powder-rose;
+    }
+  }
+
+  &--salty {
+    background-color: $green-grass;
+   // background-image: linear-gradient(to bottom right,$green-grass, white);
+   // background: url('../../assets/bgSquares.jpg') repeat;
+
+    .order-items__title {
+      color: white;
+      text-shadow: 0 1px 1px $grey;
+    }
+  }
+}

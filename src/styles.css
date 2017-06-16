@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Solena;
+  src: url(assets/fonts/Solena-Regular.otf);
+}
+
 .app-header.mdl-layout__header {
   background-color: rgb(128,83,113);
 }

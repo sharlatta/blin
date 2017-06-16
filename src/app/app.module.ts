@@ -7,11 +7,13 @@ import {MdButtonModule, MdToolbarModule} from '@angular/material';
 import {FlexLayoutModule} from "@angular/flex-layout";
 
 import {OrderItemComponent} from './order-item/order-item.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         OrderItemComponent,
+        ProductListComponent,
     ],
     imports: [
         BrowserModule,
